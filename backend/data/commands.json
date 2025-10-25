@@ -1,0 +1,97 @@
+{
+  "commands": [
+    {
+      "category": "greeting",
+      "examples": [
+        "سلام",
+        "ہیلو",
+        "آداب",
+        "السلام علیکم",
+        "کیا حال ہے",
+        "hi",
+        "hello",
+        "assalam o alaikum"
+      ],
+      "description": "اردو وائس اسسٹنٹ سے بات شروع کریں"
+    },
+    {
+      "category": "weather",
+      "examples": [
+        "موسم کیسا ہے؟",
+        "آج کا موسم",
+        "بارش ہو گی؟",
+        "what's the weather",
+        "mausam kaisa hai",
+        "temperature kya hai"
+      ],
+      "description": "موسم کی معلومات حاصل کریں"
+    },
+    {
+      "category": "time",
+      "examples": [
+        "وقت کیا ہوا ہے؟",
+        "ابھی کتنے بجے ہیں؟",
+        "what time is it",
+        "waqt kya hai",
+        "kitne baje hain"
+      ],
+      "description": "موجودہ وقت معلوم کریں"
+    },
+    {
+      "category": "date",
+      "examples": [
+        "آج کی تاریخ کیا ہے؟",
+        "آج کون سا دن ہے؟",
+        "what's the date",
+        "tareekh kya hai",
+        "aaj kaun sa din hai"
+      ],
+      "description": "موجودہ تاریخ اور دن معلوم کریں"
+    },
+    {
+      "category": "prayer",
+      "examples": [
+        "نماز کا وقت",
+        "اگلی نماز کب ہے؟",
+        "prayer time",
+        "namaz ka waqt",
+        "azan ka waqt"
+      ],
+      "description": "نماز کے اوقات معلوم کریں"
+    },
+    {
+      "category": "joke",
+      "examples": [
+        "کوئی لطیفہ سناؤ",
+        "مجھے ہنساؤ",
+        "tell me a joke",
+        "lateefa sunao",
+        "mazaak sunao"
+      ],
+      "description": "اردو لطیفے سنیں اور مزے کریں"
+    },
+    {
+      "category": "news",
+      "examples": [
+        "تازہ خبریں",
+        "آج کی خبریں",
+        "latest news",
+        "khabar sunao",
+        "news kya hai"
+      ],
+      "description": "تازہ ترین خبریں سنیں"
+    },
+    {
+      "category": "help",
+      "examples": [
+        "مدد",
+        "تم کیا کر سکتے ہو؟",
+        "help",
+        "madad",
+        "kya kar sakte ho",
+        "commands kya hain"
+      ],
+      "description": "دستیاب کمانڈز اور مدد حاصل کریں"
+    }
+  ]
+}

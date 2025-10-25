@@ -1,0 +1,261 @@
+{
+  "patterns": {
+    "greeting": {
+      "keywords": [
+        "سلام",
+        "hello",
+        "hi",
+        "hey",
+        "آداب",
+        "assalam",
+        "kya hal",
+        "السلام علیکم",
+        "خوش آمدید",
+        "ہیلو",
+        "ہائی",
+        "صبح بخیر",
+        "good morning",
+        "good evening"
+      ],
+      "patterns": [
+        ".*سلام.*",
+        ".*hello.*",
+        ".*hi.*",
+        ".*آداب.*",
+        ".*kya hal.*",
+        ".*صبح بخیر.*"
+      ],
+      "confidence": 0.95
+    },
+    "farewell": {
+      "keywords": [
+        "bye",
+        "alvida",
+        "حافظ",
+        "goodbye",
+        "khuda hafiz",
+        "اللہ حافظ",
+        "الوداع",
+        "خدا حافظ",
+        "tata",
+        "see you",
+        "شب بخیر",
+        "good night"
+      ],
+      "patterns": [
+        ".*bye.*",
+        ".*alvida.*",
+        ".*حافظ.*",
+        ".*الوداع.*",
+        ".*good night.*"
+      ],
+      "confidence": 0.95
+    },
+    "thanks": {
+      "keywords": [
+        "thanks",
+        "thank you",
+        "شکریہ",
+        "shukriya",
+        "mehrbani",
+        "مہربانی",
+        "آپ کا شکریہ",
+        "جزاک اللہ"
+      ],
+      "patterns": [
+        ".*thank.*",
+        ".*شکریہ.*",
+        ".*shukriya.*",
+        ".*mehrbani.*"
+      ],
+      "confidence": 0.95
+    },
+    "weather": {
+      "keywords": [
+        "موسم",
+        "weather",
+        "mausam",
+        "بارش",
+        "rain",
+        "barish",
+        "گرمی",
+        "سردی",
+        "garmi",
+        "sardi",
+        "temperature",
+        "درجہ حرارت",
+        "climate"
+      ],
+      "patterns": [
+        ".*موسم.*کیسا.*",
+        ".*weather.*",
+        ".*mausam.*kaisa.*",
+        ".*بارش.*",
+        ".*temperature.*"
+      ],
+      "confidence": 0.90
+    },
+    "time": {
+      "keywords": [
+        "وقت",
+        "time",
+        "waqt",
+        "بجے",
+        "baje",
+        "کتنے بجے",
+        "kitne baje",
+        "what time",
+        "current time",
+        "ابھی کتنے بجے"
+      ],
+      "patterns": [
+        ".*وقت.*کیا.*",
+        ".*کتنے بجے.*",
+        ".*time.*",
+        ".*waqt.*kya.*",
+        ".*what time.*"
+      ],
+      "confidence": 0.92
+    },
+    "date": {
+      "keywords": [
+        "تاریخ",
+        "date",
+        "tareekh",
+        "دن",
+        "din",
+        "آج",
+        "aaj",
+        "today",
+        "کون سا دن",
+        "kaun sa din",
+        "what day"
+      ],
+      "patterns": [
+        ".*تاریخ.*کیا.*",
+        ".*date.*",
+        ".*tareekh.*",
+        ".*آج.*دن.*",
+        ".*what.*day.*"
+      ],
+      "confidence": 0.92
+    },
+    "prayer": {
+      "keywords": [
+        "نماز",
+        "prayer",
+        "namaz",
+        "اذان",
+        "azan",
+        "فجر",
+        "ظہر",
+        "عصر",
+        "مغرب",
+        "عشاء",
+        "fajr",
+        "zuhr",
+        "asr",
+        "maghrib",
+        "isha",
+        "salah",
+        "نماز کا وقت"
+      ],
+      "patterns": [
+        ".*نماز.*",
+        ".*prayer.*",
+        ".*namaz.*",
+        ".*azan.*",
+        ".*فجر.*|.*ظہر.*|.*عصر.*|.*مغرب.*|.*عشاء.*"
+      ],
+      "confidence": 0.90
+    },
+    "joke": {
+      "keywords": [
+        "لطیفہ",
+        "joke",
+        "lateefa",
+        "مزاق",
+        "mazak",
+        "mazaaq",
+        "funny",
+        "hasao",
+        "ہنساؤ",
+        "کوئی لطیفہ",
+        "tell joke",
+        "مجھے ہنساؤ"
+      ],
+      "patterns": [
+        ".*لطیفہ.*",
+        ".*joke.*",
+        ".*lateefa.*",
+        ".*مزاق.*",
+        ".*ہنساؤ.*",
+        ".*funny.*"
+      ],
+      "confidence": 0.88
+    },
+    "news": {
+      "keywords": [
+        "خبر",
+        "news",
+        "khabar",
+        "خبریں",
+        "khabrain",
+        "تازہ خبریں",
+        "latest news",
+        "taza khabrain",
+        "headlines",
+        "سرخیاں"
+      ],
+      "patterns": [
+        ".*خبر.*",
+        ".*news.*",
+        ".*khabar.*",
+        ".*خبریں.*",
+        ".*headlines.*"
+      ],
+      "confidence": 0.88
+    },
+    "help": {
+      "keywords": [
+        "مدد",
+        "help",
+        "madad",
+        "commands",
+        "کمانڈز",
+        "کیا کر سکتے ہو",
+        "what can you do",
+        "kya kar sakte ho",
+        "features",
+        "خصوصیات"
+      ],
+      "patterns": [
+        ".*مدد.*",
+        ".*help.*",
+        ".*madad.*",
+        ".*کیا کر سکتے.*",
+        ".*what.*can.*do.*"
+      ],
+      "confidence": 0.90
+    },
+    "how_are_you": {
+      "keywords": [
+        "کیسے ہو",
+        "how are you",
+        "kaise ho",
+        "کیسی ہو",
+        "kaisi ho",
+        "آپ کیسے ہیں",
+        "تم کیسے ہو",
+        "حال کیسا ہے"
+      ],
+      "patterns": [
+        ".*کیسے ہو.*",
+        ".*how are you.*",
+        ".*kaise.*",
+        ".*حال کیسا.*"
+      ],
+      "confidence": 0.93
+    }
+  }
+}

@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+*.log
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# React / Frontend
+/build/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Audio files
+backend/audio_outputs/*.mp3
+!backend/audio_outputs/.gitkeep
+
+# Logs
+backend/logs/*.log
+!backend/logs/.gitkeep
+
+# OS
+Thumbs.db
+
+# Environment variables
+.env
+
+# Testing
+.pytest_cache/
+htmlcov/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
