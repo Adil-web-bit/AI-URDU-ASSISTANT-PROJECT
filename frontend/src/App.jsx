@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 import api from './services/api';
 import audioService from './services/audioService';
 import speechService from './services/speechService';
-import { STATUS, MESSAGE_TYPE, MESSAGES } from './utils/constants';
+import { STATUS, MESSAGE_TYPE } from './utils/constants';
 import { AlertCircle, Wifi, WifiOff } from 'lucide-react';
 
 function App() {

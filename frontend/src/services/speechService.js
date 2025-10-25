@@ -79,4 +79,5 @@ class SpeechService {
   }
 }
 
-export default new SpeechService();
+const speechService = new SpeechService();
+export default speechService;
