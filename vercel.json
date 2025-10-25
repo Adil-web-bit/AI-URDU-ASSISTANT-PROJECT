@@ -19,23 +19,11 @@
       "dest": "backend/main.py"
     },
     {
-      "src": "/static/(.*)",
-      "dest": "frontend/build/static/$1"
-    },
-    {
-      "src": "/favicon.ico",
-      "dest": "frontend/build/favicon.ico"
-    },
-    {
-      "src": "/manifest.json",
-      "dest": "frontend/build/manifest.json"
+      "handle": "filesystem"
     },
     {
       "src": "/(.*)",
-      "dest": "frontend/build/index.html"
+      "dest": "/index.html"
     }
-  ],
-  "env": {
-    "PYTHON_VERSION": "3.10"
-  }
+  ]
 }
