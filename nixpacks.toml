@@ -1,9 +1,9 @@
 [phases.setup]
-nixPkgs = ["python310", "nodejs-18_x"]
+nixPkgs = ["python310", "nodejs-18_x", "python310Packages.pip"]
 
 [phases.install]
 cmds = [
-  "cd backend && pip install -r requirements.txt",
+  "cd backend && python -m pip install -r requirements.txt",
   "cd frontend && npm install"
 ]
 
